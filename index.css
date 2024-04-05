@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    font-family: century;
+    padding: 0%;    
+}
+.header {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,00.7)),url(bracelet\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100px;
+}
+nav img{
+    margin: 0.8vh 0.8vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: auto;
+    width: 100px;    
+    border-radius: 50px;
+    padding: 0%;
+    float: left;
+}
+ul{
+    margin-left: 90vh;
+    margin-top: 20px;
+}
+li{
+    display: inline;
+    margin-left:20px ;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    font-size: 15px;
+    transition: 1s;
+}
+ul li a:hover{
+    color: yellow;
+}
+.topic {
+    position: absolute;
+    top: 25vh;
+    left: 40.3vh;
+    padding: 10px;
+    padding-bottom: 40vh;
+    font-size: 20px;
+    color: rgb(224, 37, 193);
+    font-style: italic;
+    font-size: 22px;
+}
+.justborder{
+    /* border: 1px solid rgb(53, 30, 49); */
+    background-color: transparent;
+    position: absolute;
+    padding-bottom: 50vh;
+    padding-right: 50vh;
+    top: 33vh;
+    left: 40vh;   
+    backdrop-filter: blur(50px); 
+}
+.login{
+    position: relative;
+    top: 4vh;
+    left: 25vh;
+    font-size: 3vh;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.username{
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    
+}
+.password{
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    
+}
+.btn{   
+    position: absolute;
+    top: 39%;
+    left: 27%;
+}
+.forgotpassword a{
+    color: rgb(30, 42, 216);
+    top: 54%;
+    left: 42%;
+    position: absolute;
+}
+ .register{
+    position: absolute;
+    top: 58vh;
+    left: 57vh;
+    color: rgba(211, 90, 90, 0.555);
+ }
+ .clickhere{
+    position: absolute;
+    top: 61.5vh;
+    margin-left: 55.7vh;
+    transition: 1s;
+ }
+ .clickhere a{
+    text-decoration: none;
+    color: lightgreen;
+    transition: 1s;
+    
+ }
+ 
+ .clickhere a:hover{
+    color: rgba(17, 151, 151, 0.404);
+ }
+@keyframes bounce {
+    from{
+        transform: translatey(-10px);
+    }
+
+    to{
+        transform: translatey(0);
+    }
+}
+.clickhere  {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+
+    transform: translateY(-20px);
+}
